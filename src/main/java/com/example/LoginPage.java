@@ -30,10 +30,10 @@ import utils.Log;
 
 public class LoginPage {
 
-    @FindBy(id = "Email")
+    @FindBy(id = "user-name")
     WebElement usernameTextbox;
 
-    @FindBy(id = "Password")
+    @FindBy(id = "password")
     WebElement passwordTextbox;
 
     @FindBy(xpath = "//button[@type='submit']")
