@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-21T15:29:13 IST" name="Surefire suite" finished-at="2026-05-21T15:29:23 IST" duration-ms="9602">
+    <groups>
+    </groups>
+    <test started-at="2026-05-21T15:29:13 IST" name="Surefire test" finished-at="2026-05-21T15:29:23 IST" duration-ms="9602">
+      <class name="tests.BaseTest">
+        <test-method is-config="true" signature="setupReport()[pri:0, instance:tests.BaseTest@657c8ad9]" started-at="2026-05-21T15:29:13 IST" name="setupReport" finished-at="2026-05-21T15:29:13 IST" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method is-config="true" signature="teardownReport()[pri:0, instance:tests.BaseTest@657c8ad9]" started-at="2026-05-21T15:29:23 IST" name="teardownReport" finished-at="2026-05-21T15:29:23 IST" duration-ms="358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownReport -->
+      </class> <!-- tests.BaseTest -->
+      <class name="specs.ShoppingFlowTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:specs.ShoppingFlowTest@341b80b2]" started-at="2026-05-21T15:29:13 IST" name="setup" finished-at="2026-05-21T15:29:22 IST" duration-ms="8506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="shoppingFlow()[pri:0, instance:specs.ShoppingFlowTest@341b80b2]" started-at="2026-05-21T15:29:22 IST" name="shoppingFlow" finished-at="2026-05-21T15:29:23 IST" duration-ms="946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shoppingFlow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:specs.ShoppingFlowTest@341b80b2]" started-at="2026-05-21T15:29:23 IST" name="tearDown" finished-at="2026-05-21T15:29:23 IST" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- specs.ShoppingFlowTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
